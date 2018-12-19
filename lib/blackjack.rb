@@ -50,6 +50,6 @@ def runner
    elsif
    hit?(cards_in_hand)
  end
-   end_game
+   end_game(h)
  end
  
