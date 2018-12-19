@@ -48,6 +48,6 @@ def runner
    if cards_in_hand < 21
    hit?(cards_in_hand)
    elsif cards_in_hand > 21
-end_game
+   return end_game
  end
  end
