@@ -47,9 +47,7 @@ def runner
    cards_in_hand = initial_round
    if cards_in_hand <= 21
    hit?(cards_in_hand)
-   elsif
-   hit?(cards_in_hand)
- end
-   end_game(h)
+   elsif cards_in_hand > 21
+end_game
  end
  
