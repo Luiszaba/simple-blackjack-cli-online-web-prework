@@ -48,6 +48,5 @@ def runner
    until cards_in_hand > 21
    hit?(cards_in_hand)
    display_card_total(cards_in_hand)
-   
  end
  end
