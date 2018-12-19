@@ -45,9 +45,9 @@ end
 def runner
    welcome
    cards_in_hand = initial_round
-   if cards_in_hand <= 21
+   if cards_in_hand < 21
    hit?(cards_in_hand)
    elsif cards_in_hand > 21
 end_game
  end
- 
+ end
